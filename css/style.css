@@ -170,5 +170,9 @@ img {
         background-color: black;
         margin: 0;
     }
+
+    .why-us .container{
+        margin-top: 2rem;
+    }
  }
 
