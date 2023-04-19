@@ -136,13 +136,33 @@ img {
  }
  
  @media screen and (max-width: 480px) {
+    
     .container *{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-.steps{
+    
+    .lessons .col{
+        width: 90%;
+        margin: 2rem 0;
+       
+    }
+
+    .steps .col{
+        width: 90%;
+        margin: 2rem 0;
+       
+    }
+
+    .why-us .col{
+        width: 90%;
+        margin: 2rem 0;
+       
+    }
+
+    .steps{
     margin-bottom: 0;
 }
 
@@ -151,3 +171,4 @@ img {
         margin: 0;
     }
  }
+
