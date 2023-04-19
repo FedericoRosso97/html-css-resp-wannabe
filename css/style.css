@@ -127,7 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+@media screen and (max-width:1160px){
+    .container{
+        width:100%;
+    }
+}
+ 
  @media screen and (max-width:768px) {
     .container{
         width:100% ;
@@ -140,7 +145,6 @@ img {
     .container *{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
     
@@ -172,7 +176,7 @@ img {
     }
 
     .why-us .container{
-        padding-top: 2rem;
+        padding-top: 3rem;
     
     }
  }
